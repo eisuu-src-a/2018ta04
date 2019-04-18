@@ -1,0 +1,158 @@
+@charcet "UTF-8";
+body{
+    background-color: #ddd;
+}
+.main{
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 960px;
+}
+.header{
+    background: #b67d52;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+.header a{
+    width: 120px;
+}
+.gloval_navi{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.header a, .header a:link, .header a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+.header a, .header a:active, .header a:focus{
+    color: #ff8080;
+    outline: none;
+    text-decoration: underline;
+}
+.header a img{
+    width: 100%;
+}
+.main_title{
+    background: url("images/pic_home_h1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.main_title img{
+    display: block;
+    height: block;
+    height: 91px;
+    margin-left: auto;
+    margin-top: auto;
+    width: 750px;
+}
+.contents{
+padding-bottom: 64px;
+padding-top:64px;
+}
+.home_about{
+    display: flex;
+    flex-wrap: wrap;
+}
+.home_about h2{
+    border-bottom: solid thin #cccccc;
+    margin-bottom: 24px;
+    font-size: 32px;
+    width: 100%;
+}
+.home_about_h2_span{
+    font-size: 16px;
+    margin-left: 16pxl;
+}
+.home_about_image{
+    width: 288px;
+}
+.home_about_image img{
+    width: 100%;
+}
+.home_about_text{
+    margin-right: 32px;
+    width: 608px;
+}
+.home_info{
+    display: flex;
+    margin-top: 64px;
+
+}
+.home_info h2{
+    border-bottom: solid thin #cccccc;
+    margin-bottom: 24px;
+    font-size:32px;
+    width: 100px;
+}
+.home_info h2 span{
+    font-size: 16px;
+    margin-left : 16px;
+
+}
+.home_about image img{
+    width: 100px;
+}
+.home_about_text{
+    margin-right: 32px;
+    width: 608px;
+}
+.home_info{
+    display: flex;
+    margin-top: 64px;
+}
+.home_info h2{
+    border-bottom: solid thin #cccccc;
+    margin-bottom: 24px;
+    font-size: 32px;
+    width: 100%;
+}
+.home_info h2 span{
+    font-size: 16px;
+    margin-left: 16px;
+}
+.home_about_recommend{
+    margin-right:  32px;
+    width: 608px;
+}
+.home_about_recommend_image img:hover{
+    transition: all 0.2s linear;
+    width: 100%;
+}
+.home_info_recommend_image img:hover{
+    opacity: 0.75;
+    transition: all 0.2s linear;
+}
+.home_info_recommend_text{
+    margin-top: 16px;
+}
+.home_info_view{
+    width: 288px;
+   }
+.home_info_view_image img{
+    transition: all 0.2s linear;
+    width: 100px;
+}
+.home_info_view_image img:hover{
+    opacity: 0.75;
+    transition: all 0.2s linear;
+}
+.home_info_view_text{
+    margin-top: 16px;
+}
+.home_menu{
+    margin-top: 64px;
+}
+.home_menu h2{
+    border-bottom: solid thin #cccccc;
+    margin-bottom: 24px;
+    font-size: 32px;
+    width: 100%;
+}
